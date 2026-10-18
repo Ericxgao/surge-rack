@@ -1,0 +1,775 @@
+{
+  "slug": "SurgeXTNative",
+  "name": "Surge XT Native",
+  "version": "0.1.49",
+  "license": "GPL-3.0-or-later",
+  "brand": "Surge XT Native",
+  "author": "Surge Synth Team and contributors",
+  "modules": [
+    {
+      "slug": "Classic",
+      "name": "Classic",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Modern",
+      "name": "Modern",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Sine",
+      "name": "Sine",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "FM2",
+      "name": "FM2",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "FM3",
+      "name": "FM3",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "SHNoise",
+      "name": "SHNoise",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Alias",
+      "name": "Alias",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "String",
+      "name": "String",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Twist",
+      "name": "Twist",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Wavetable",
+      "name": "Wavetable",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Window",
+      "name": "Window",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Mixer",
+      "name": "Mixer",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "MixerSlider",
+      "name": "MixerSlider",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "DigitalRingMod",
+      "name": "DigitalRingMod",
+      "tags": [
+        "Ring modulator"
+      ]
+    },
+    {
+      "slug": "ModMatrix",
+      "name": "ModMatrix",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "QuadAD",
+      "name": "QuadAD",
+      "tags": [
+        "Envelope generator"
+      ]
+    },
+    {
+      "slug": "QuadLFO",
+      "name": "QuadLFO",
+      "tags": [
+        "LFO"
+      ]
+    },
+    {
+      "slug": "EGxVCA",
+      "name": "EG x VCA",
+      "tags": [
+        "Envelope generator",
+        "VCA"
+      ]
+    },
+    {
+      "slug": "Phaser",
+      "name": "Phaser",
+      "tags": [
+        "Phaser"
+      ]
+    },
+    {
+      "slug": "Combulator",
+      "name": "Combulator",
+      "tags": [
+        "Filter",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "SpringReverb",
+      "name": "Spring Reverb",
+      "tags": [
+        "Reverb"
+      ]
+    },
+    {
+      "slug": "LFO",
+      "name": "LFO x EG",
+      "tags": [
+        "LFO",
+        "Envelope generator",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Delay",
+      "name": "Delay",
+      "tags": [
+        "Delay"
+      ]
+    },
+    {
+      "slug": "DelayLineByFreqExpanded",
+      "name": "Tuned Delay +",
+      "tags": [
+        "Delay",
+        "Physical modeling"
+      ]
+    },
+    {
+      "slug": "DelayLineByFreq",
+      "name": "Tuned Delay",
+      "tags": [
+        "Delay"
+      ]
+    },
+    {
+      "slug": "Nimbus",
+      "name": "Nimbus",
+      "tags": [
+        "Granular",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Reverb",
+      "name": "Reverb",
+      "tags": [
+        "Reverb",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Reverb2",
+      "name": "Reverb 2",
+      "tags": [
+        "Reverb"
+      ]
+    },
+    {
+      "slug": "Resonator",
+      "name": "Resonator",
+      "tags": [
+        "Filter",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Vocoder",
+      "name": "Vocoder",
+      "tags": [
+        "Effect"
+      ]
+    },
+    {
+      "slug": "TreeMonster",
+      "name": "Tree Monster",
+      "tags": [
+        "Effect",
+        "Envelope follower"
+      ]
+    },
+    {
+      "slug": "RingMod",
+      "name": "Ring Modulator",
+      "tags": [
+        "Ring modulator"
+      ]
+    },
+    {
+      "slug": "FrequencyShifter",
+      "name": "Frequency Shifter",
+      "tags": [
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Bonsai",
+      "name": "Bonsai",
+      "tags": [
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "Exciter",
+      "name": "Exciter",
+      "tags": [
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "Chow",
+      "name": "Chow",
+      "tags": [
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "Neuron",
+      "name": "Neuron",
+      "tags": [
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "Distortion",
+      "name": "Distortion",
+      "tags": [
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "Ensemble",
+      "name": "Ensemble",
+      "tags": [
+        "Chorus"
+      ]
+    },
+    {
+      "slug": "Chorus",
+      "name": "Chorus",
+      "tags": [
+        "Chorus"
+      ]
+    },
+    {
+      "slug": "RotarySpeaker",
+      "name": "Rotary Speaker",
+      "tags": [
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Flanger",
+      "name": "Flanger",
+      "tags": [
+        "Flanger"
+      ]
+    },
+    {
+      "slug": "VCF",
+      "name": "VCF",
+      "tags": [
+        "Filter"
+      ]
+    },
+    {
+      "slug": "Waveshaper",
+      "name": "Waveshaper",
+      "tags": [
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "UnisonHelper",
+      "name": "Unison Helper",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "UnisonHelperCVExpander",
+      "name": "Unison CV Expander",
+      "tags": [
+        "Expander"
+      ]
+    },
+    {
+      "slug": "ModMatrixClassic",
+      "name": "Classic CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixModern",
+      "name": "Modern CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixSine",
+      "name": "Sine CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixFM2",
+      "name": "FM2 CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixFM3",
+      "name": "FM3 CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixSHNoise",
+      "name": "SHNoise CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixAlias",
+      "name": "Alias CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixString",
+      "name": "String CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixTwist",
+      "name": "Twist CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixWavetable",
+      "name": "Wavetable CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixWindow",
+      "name": "Window CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixVCF",
+      "name": "VCF CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixWaveshaper",
+      "name": "Waveshaper CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixChorus",
+      "name": "Chorus CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixFlanger",
+      "name": "Flanger CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixFlangerPart2",
+      "name": "FlangerPart2 CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixPhaser",
+      "name": "Phaser CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixPhaserPart2",
+      "name": "PhaserPart2 CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixRotarySpeaker",
+      "name": "RotarySpeaker CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixFrequencyShifter",
+      "name": "FrequencyShifter CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixExciter",
+      "name": "Exciter CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixReverb2",
+      "name": "Reverb2 CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixReverb2Part2",
+      "name": "Reverb2Part2 CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixReverb",
+      "name": "Reverb CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixReverbPart2",
+      "name": "ReverbPart2 CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixTreeMonster",
+      "name": "TreeMonster CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixNeuron",
+      "name": "Neuron CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixNeuronPart2",
+      "name": "NeuronPart2 CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixDistortion",
+      "name": "Distortion CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixDistortionPart2",
+      "name": "DistortionPart2 CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixRingMod",
+      "name": "RingMod CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixRingModPart2",
+      "name": "RingModPart2 CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixChow",
+      "name": "Chow CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixBonsai",
+      "name": "Bonsai CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixBonsaiPart2",
+      "name": "BonsaiPart2 CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixCombulator",
+      "name": "Combulator CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixCombulatorPart2",
+      "name": "CombulatorPart2 CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixEnsemble",
+      "name": "Ensemble CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixEnsemblePart2",
+      "name": "EnsemblePart2 CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixResonator",
+      "name": "Resonator CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixResonatorPart2",
+      "name": "ResonatorPart2 CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixSpringReverb",
+      "name": "SpringReverb CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixVocoder",
+      "name": "Vocoder CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixVocoderPart2",
+      "name": "VocoderPart2 CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixNimbus",
+      "name": "Nimbus CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixNimbusPart2",
+      "name": "NimbusPart2 CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixNimbusPitch",
+      "name": "NimbusPitch CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixNimbusPitchPart2",
+      "name": "NimbusPitchPart2 CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixNimbusLoop",
+      "name": "NimbusLoop CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixNimbusLoopPart2",
+      "name": "NimbusLoopPart2 CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixNimbusSpectral",
+      "name": "NimbusSpectral CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixNimbusSpectralPart2",
+      "name": "NimbusSpectralPart2 CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixDelay",
+      "name": "Delay CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixDelayPart2",
+      "name": "DelayPart2 CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixDelayLineByFreqExpanded",
+      "name": "DelayLineByFreqExpanded CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixMixer",
+      "name": "Mixer CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixQuadLFO",
+      "name": "QuadLFO CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixQuadAD",
+      "name": "QuadAD CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixEGxVCA",
+      "name": "EGxVCA CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixLFO",
+      "name": "LFO CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixLFOPart2",
+      "name": "LFOPart2 CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ModMatrixUnisonHelper",
+      "name": "UnisonHelper CV Depths",
+      "tags": [
+        "Utility"
+      ]
+    }
+  ]
+}

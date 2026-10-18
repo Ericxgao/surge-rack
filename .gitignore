@@ -14,3 +14,9 @@ src/.#*
 dep/
 cmake-build*
 ignore/
+
+# Local development notes
+*.md
+
+# Local generation and verification tools
+/metamodule/scripts/

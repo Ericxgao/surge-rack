@@ -1,0 +1,19 @@
+Surge XT Native for MetaModule - experimental port
+
+Code: Surge Synth Team and contributors, GPL-3.0-or-later, with dependency
+terms retained in licenses.tar.gz. The archive includes full license texts,
+SDK notices and source copyright/license preambles, with an index.
+
+Artwork: original res/xt SVGs copyright Steve and Pierre, distributed by
+surge-rack under Creative Commons Attribution-NonCommercial-ShareAlike 4.0.
+Source: https://github.com/surge-synthesizer/surge-rack/tree/main/res/xt
+Terms: https://creativecommons.org/licenses/by-nc-sa/4.0/
+MetaModule adaptations rasterize the original artwork and alter labels,
+control placement and CV layouts. These artwork adaptations retain
+CC BY-NC-SA 4.0. This artwork license is distinct from the code license.
+
+Quicksand: copyright 2011 Andrew Paglinawan, SIL Open Font License 1.1;
+its original license and attribution are included in licenses.tar.gz.
+
+Source project: https://github.com/surge-synthesizer/surge-rack
+Native port: https://github.com/Ericxgao/surge-rack/tree/pr/native-surge-port/metamodule
